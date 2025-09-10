@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="Poirot">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: Replace with your lab/institution Twitter handle -->
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <!-- TODO: Replace with first author's Twitter handle -->
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <!-- TODO: Same as paper title above -->
+  <meta name="twitter:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
+  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
+  <meta name="citation_publication_date" content="2024">
+  <meta name="citation_conference_title" content="CONFERENCE_NAME">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title><span style="font-variant: small-caps; font-weight: bold;">Poirot</span></title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-1 publication-title"><span style="font-variant: small-caps; font-weight: bold;">Poirot</span>: Automatic Root Cause Analysis of Safety Violations
+              in ADS Simulation Testing via Hypothetical Reasoning</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
+              <span class="author-block">
+                <a>Anonymous Author(s)</a>
+              </div>
+
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+
+                  <!-- TODO: Replace with your GitHub repository URL -->
+                  <span class="link-block">
+                    <a href="https://github.com/Poirot4ADS/Poirot" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            With the rapid development of autonomous driving systems (ADSs), it has become critical to ensure their operational safety, leading to the widespread adoption of simulation testing. While existing scenario-based simulation testing approaches have demonstrated effectiveness in detecting safety violations, they often fall short in providing insight into the underlying causes of these violations, which is an essential capability for improving the safety and reliability of ADSs. 
+          </p>
+          <p>
+            To address this limitation, we propose a two-phase novel framework, <span style="font-variant: small-caps; font-weight: bold;">Poirot</span>, for root cause analysis in simulation testing via hypothetical reasoning. 
+            Specifically, in the module-level localization phase, <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> replays the violation scenario, and identifies the faulty module by hypothetical reasoning, i.e., iteratively replacing an actual module with an idealized module and checking whether the violation persists. In the component-level localization phase, given the identified faulty module, <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> either employs hypothetical reasoning with a suspicion-guided search strategy or leverages causal analysis, to efficiently narrow down the fault space and identify the faulty component. 
+          </p>
+          <p>
+            We evaluate <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> on two ADSs, i.e., Apollo and Autoware, on a comprehensive benchmark that includes a total of 80 real and injected faults along with their triggering scenarios. <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> achieves 85.67% module-level accuracy and 83.62% component-level accuracy in root cause analysis. Our ablation study shows that our suspicion-guided search strategy in <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> effectively reduces the exploration of the fault space by 58.77%, leading to a 65.41% reduction in the time for fault localization. Finally, applied to two scenario-based simulation testing methods, i.e., AvFuzzer and MoDitector, <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> attributes 425 violation scenarios to 8 faults, cutting debugging time by 96.89% compared to manual analysis in practice.
+          </p>
+          <p>
+            The paper has been submitted to <b>FSE 2026</b>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Prototype and Documents</h2>
+          <div class="level-set has-text-justified">
+            <img src="static/images/overview.jpg" alt="MY ALT TEXT" />
+            <p>
+              We propose <span style="font-variant: small-caps; font-weight: bold;">Poirot</span>, a two-phase root cause analysis framework by constructing and evaluating counterfactual executions to first identify the faulty module 
+              <span style="font-family: monospace;">𝓜<sub>faulty</sub> ∈ {localization, perception, prediction, planning, control}</span> 
+              and then the faulty component 
+              <span style="font-family: monospace;">𝓒<sub>faulty</sub> ∈ {𝓒<sub>0</sub>, 𝓒<sub>1</sub>, …, 𝓒<sub>|𝓒-1|</sub>}</span> within 
+              <span style="font-family: monospace;">𝓜<sub>faulty</sub></span>.
+              The key challenge lies in <i>(1) how to obtain idealized messages for each module and component, and (2) how to reduce the fault space</i>. 
+              </p>
+              
+              <p>
+              Specifically, in the module-level localization phase, <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> (i.e., Step-1 in Figure) replays the violation scenario to collect idealized messages from the simulator, and aligns them temporally to obtain the idealized module messages. 
+              Next, <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> (i.e., Step-2 in Figure) constructs idealized message flows for modules in the ADS, and applies hypothetical reasoning to identify 
+              <span style="font-family: monospace;">𝓜<sub>faulty</sub></span> by iteratively replacing actual modules with idealized modules, which are virtual modules publishing idealized messages, and checking whether the violation disappears.
+              </p>
+              
+              <p>
+              In the component-level localization phase, if 
+              <span style="font-family: monospace;">𝓜<sub>faulty</sub> ∈ {localization, perception, prediction}</span>, 
+              <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> (i.e., Step-3 in Figure) obtains the idealized component messages and actual component messages within 
+              <span style="font-family: monospace;">𝓜<sub>faulty</sub></span> via scenario replaying. 
+              By performing differential analysis between these two types of messages, <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> computes the suspicion score for each component in 
+              <span style="font-family: monospace;">𝓜<sub>faulty</sub></span>. 
+              Then, <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> applies a suspicion-guided search strategy on the component message graph (CMG) of 
+              <span style="font-family: monospace;">𝓜<sub>faulty</sub></span> to reduce the fault space and accelerate the identification of the faulty component 
+              <span style="font-family: monospace;">𝓒<sub>faulty</sub></span>. 
+              If <span style="font-family: monospace;">𝓜<sub>faulty</sub> ∈ {planning, control}</span>, 
+              <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> (i.e., Step-4 in Figure) employs causal analysis to enable fine-grained localization of 
+              <span style="font-family: monospace;">𝓒<sub>faulty</sub></span> in planning or control modules.
+              </p>              
+            <p>
+              We have implemented a prototype of <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> with 2,536 lines of C++ and Python code. The prototype of <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> and
+              documents are available on <a href="https://github.com/Poirot4ADS/Poirot" target="_blank">GitHub</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Benchmark</h2>
+          <img src="static/images/benchmark.jpg" alt="MY ALT TEXT" />
+          <div class="level-set has-text-justified">
+            <p>
+              Our benchmark consists of 42 collision scenarios, 14 running red light scenarios, 10 crossing yellow line scenarios, and 14 scenarios where the ADS fails to reach the destination, and it covers the 5 modules and 28 unique components in these two multi-module ADSs.
+              The time duration of these scenarios ranges from 10 seconds to 35 seconds.
+              Each case in the benchmark includes the ADS version, the violation description, the violation symptom, the triggering scenario, the fault type, the root cause (i.e., the faulty module, and the faulty component), and the corresponding fix method. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Effectiveness Evaluation (RQ1)</h2>
+          <img src="static/images/rq1.jpg" alt="MY ALT TEXT" />
+          <div class="level-set has-text-justified">
+            <p>
+              <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> effectively identifies the faulty module with an average gain of accuracy by 85.67% across modules, compared to the baseline approach, and further localizes the faulty component within the identified faulty module with a high accuracy by 83.62%.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Efficiency Evaluation (RQ2)</h2>
+          <img src="static/images/rq2.jpg" alt="MY ALT TEXT" />
+          <div class="level-set has-text-justified">
+            <p>
+              The construction and evaluation of counterfactual executions in <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> incur an average time overhead of 114.69 seconds compared to the baseline. Nevertheless, this additional cost is acceptable given the effectiveness of <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> in pinpointing the faulty module and the faulty component responsible for the violations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Ablation Study (RQ3)</h2>
+          <img src="static/images/rq3.jpg" alt="MY ALT TEXT" />
+          <div class="level-set has-text-justified">
+            <p>
+              Our suspicion scores provide the promising faulty components, decreasing the average time consumption by 30.09%, and narrowing down the fault space exploration for faulty component localization by at least 30.18%. Besides, our search strategy adopted in <span style="font-variant: small-caps; font-weight: bold;">Poirot</span> further enhances the efficiency of faulty component localization by 65.41% in time consumption and 58.77% in fault space exploration, respectively.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Usefulness Evaluation (RQ4)</h2>
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item has-text-centered">
+              <img src="static/images/rq4_1.jpg" alt="MY ALT TEXT" />
+            </div>
+            <div class="item has-text-centered">
+              <img src="static/images/rq4_2.jpg" alt="MY ALT TEXT" />
+            </div>
+          </div>
+          <div class="level-set has-text-justified">
+            <p>
+              <span style="font-variant: small-caps; font-weight: bold;">Poirot</span>
+               effectively provides reliable fault localization for safety violations in ADS simulation testing, attributing a total of 425 violations to 8 unique faulty components, reducing the time consumption by at least 96.89% compared to manual analysis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
