@@ -1,0 +1,50 @@
+{
+    "scenario_name" : "wrong speed planning",
+    "label" : "inject",
+    "ego_id" : "2e966a70-4a19-44b5-a5e7-64e00a7bc5de",
+    "lgsvl_map" : "SanFrancisco_correct",
+    "apollo_map" : "SanFrancisco_correct",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": -392.839660644531, "y": 10.1996097564697, "z": 375.433532714844},
+            "destination" : {"x": -439.024810791016, "y": 10.199610710144, "z": 420.510986328125},
+            "speed" : 0
+        },
+        "npcs" : [
+            {
+                "type": "Jeep",
+                "position" : {"x": -399.229675292969, "y": 10.2, "z": 403.961944580078},
+                "destination": {"x": -415.503509521484, "y": 10.199610710144, "z": 402.133361816406},
+                "action" : "turn",
+                "speed" : 2
+            },
+            {
+                "type": "Sedan",
+                "position" : {"x": -414.731628417969, "y": 10.2, "z": 370.7001953125},
+                "destination": {"x": -398.024810791016, "y": 10.199610710144, "z": 369.510986328125},
+                "action" : "turn",
+                "speed" : 2
+            },
+            {
+                "type": "SUV",
+                "position" : {"x": -421.731628417969, "y": 10.2, "z": 396.7001953125},
+                "destination": {"x": -394.024810791016, "y": 10.199610710144, "z": 398.510986328125},
+                "action" : "turn",
+                "speed" : 2.2
+            }
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    },
+    "trafficlight_loc" : {
+        "green" :[
+            [-421.072235107422, 10.1996097564697, 396.549499511719]
+        ],
+        "red": []
+    }
+}

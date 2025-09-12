@@ -1,0 +1,34 @@
+{
+    "scenario_name" : "rear-ended",
+    "lgsvl_map" : "SanFrancisco_correct",
+    "apollo_map" : "SanFrancisco_correct",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": 540.766967773438, "y": 10.2076435089111, "z": 553.073425292969},
+            "destination" : {"x": 389.378540039063, "y": 10.199610710144, "z": 698.074523925781},
+            "speed" : 16
+        },
+        "npcs" : [
+            {
+                "type": "Jeep",
+                "position" : {"x": 475.561340332031, "y": 10.2, "z": 615.407470703125},
+                "destination": {"x": 389.378540039063, "y": 10.199610710144, "z": 698.074523925781},
+                "action" : "straight",
+                "speed" : 1.2
+            }
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    },
+    "trafficlight_loc" : {
+        "green" :[
+            [-421.072235107422, 10.1996097564697, 396.549499511719]
+        ],
+        "red": []
+    }
+}

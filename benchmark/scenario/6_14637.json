@@ -1,0 +1,36 @@
+{
+    "scenario_name" : "turn right no evading straight",
+    "label" : "14637",
+    "ego_id" : "2e966a70-4a19-44b5-a5e7-64e00a7bc5de",
+    "lgsvl_map" : "SanFrancisco_correct",
+    "apollo_map" : "SanFrancisco_correct",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": -390.367065429688, "y": 10.2067356109619, "z": 378.021026611328},
+            "destination" : {"x": -370.503509521484, "y": 10.1996097564697, "z": 417.133361816406},
+            "speed" : 3
+        },
+        "npcs" : [
+            {
+                "type": "BoxTruck",
+                "position" : {"x": -428.763427734375, "y": 10.1996097564697, "z": 355.785278320313},
+                "destination": {"x": -370.503509521484, "y": 10.1996097564697, "z": 417.133361816406},
+                "action" : "straight",
+                "speed" : 9.2
+            }
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    },
+    "trafficlight_loc" : {
+        "green" :[
+            [-421.072235107422, 10.1996097564697, 396.549499511719]
+        ],
+        "red": []
+    }
+}

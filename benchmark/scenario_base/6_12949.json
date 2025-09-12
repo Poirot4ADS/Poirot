@@ -1,0 +1,35 @@
+{
+    "scenario_name" : "cannot side-pass constantly two static vehicles",
+    "lgsvl_map" : "SingleLaneRoad",
+    "apollo_map" : "SingleLaneRoad",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": -110.550811767578, "y": -7.33793544769287, "z": -1.98008275032043},
+            "destination" : {"x": -11.6789464950562, "y": 10.1996097564697, "z": -1.77172720432281},
+            "speed" : 10
+        },
+        "npcs" : [
+            {
+                "type": "Sedan",
+                "position" : {"x": -66.3064651489258, "y": 10.1996097564697, "z": -1.92180931568146},
+                "destination": {"x": -110.550811767578, "y": -7.33793544769287, "z": -1.98008275032043},
+                "action" : "stop",
+                "speed" : 5.5
+            },
+            {
+                "type": "SUV",
+                "position" : {"x": -34.8370246887207, "y": 10.1996097564697, "z": -1.05300152301788},
+                "destination": {"x": -349.461120605469, "y": 10.1996097564697, "z": 333.981079101563},
+                "action" : "stop",
+                "speed" : 5.5
+            }
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    }
+}

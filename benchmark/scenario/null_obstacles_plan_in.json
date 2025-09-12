@@ -1,0 +1,43 @@
+{
+    "scenario_name" : "no predicted obstales input",
+    "label" : "inject",
+    "ego_id" : "2e966a70-4a19-44b5-a5e7-64e00a7bc5de",
+    "lgsvl_map" : "SanFrancisco_correct",
+    "apollo_map" : "SanFrancisco_correct",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": -392.839660644531, "y": 10.1996097564697, "z": 375.433532714844},
+            "destination" : {"x": -441.024810791016, "y": 10.199610710144, "z": 354.510986328125},
+            "speed" : 0
+        },
+        "npcs" : [
+            {
+                "type": "Jeep",
+                "position" : {"x": -435.229675292969, "y": 10.2, "z": 348.961944580078},
+                "destination": {"x": -370.503509521484, "y": 10.199610710144, "z": 417.133361816406},
+                "action" : "straight",
+                "speed" : 6
+            },
+            {
+                "type": "Sedan",
+                "position" : {"x": -396.731628417969, "y": 10.2, "z": 400.7001953125},
+                "destination": {"x": -441.024810791016, "y": 10.199610710144, "z": 354.510986328125},
+                "action" : "straight",
+                "speed" : 5
+            }
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    },
+    "trafficlight_loc" : {
+        "green" :[
+            [-421.072235107422, 10.1996097564697, 396.549499511719]
+        ],
+        "red": []
+    }
+}

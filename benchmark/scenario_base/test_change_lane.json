@@ -1,0 +1,27 @@
+{
+    "scenario_name" : "straight no deaccerlation",
+    "lgsvl_map" : "SanFrancisco_correct",
+    "apollo_map" : "SanFrancisco_correct",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": 401.26899485092383, "y": 10.2, "z": 139.5219656862071},
+            "destination" : {"x": 316.09269674853044, "y": 10.199610710144, "z": 231.32246466750468},
+            "speed" : 0
+        },
+        "npcs" : [
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    },
+    "trafficlight_loc" : {
+        "green" :[
+            [474.140686035156, 15.9500017166138, 53.5875549316406]
+        ],
+        "red": []
+    }
+}

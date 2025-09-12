@@ -1,0 +1,34 @@
+{
+    "scenario_name" : "straight not avoiding opposite turn left",
+    "lgsvl_map" : "SanFrancisco_correct",
+    "apollo_map" : "SanFrancisco_correct",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": -390.367065429688, "y": 10.1996097564697, "z": 378.021026611328},
+            "destination" : {"x": -437.359832763672, "y": 10.199610710144, "z": 422.929077148438},
+            "speed" : 5
+        },
+        "npcs" : [
+            {
+                "type": "Jeep",
+                "position" : {"x": -421.072235107422, "y": 10.2, "z": 396.549499511719},
+                "destination": {"x": -394.138824462891, "y": 10.199610710144, "z": 398.221557617188},
+                "action" : "turn",
+                "speed" : 6.5
+            }
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    },
+    "trafficlight_loc" : {
+        "green" :[
+            [-421.072235107422, 10.1996097564697, 396.549499511719]
+        ],
+        "red": []
+    }
+}

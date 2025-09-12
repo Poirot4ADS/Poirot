@@ -1,0 +1,30 @@
+{
+    "scenario_name" : "turn left not deaccerlation",
+    "label" : "14985",
+    "ego_id" : "2e966a70-4a19-44b5-a5e7-64e00a7bc5de",
+    "lgsvl_map" : "SanFrancisco_correct",
+    "apollo_map" : "SanFrancisco_correct",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": -349.461120605469, "y": 10.1996097564697, "z": 333.981079101563},
+            "destination" : {"x": -441.024810791016, "y": 10.199610710144, "z": 354.510986328125},
+            "speed" : 12
+        },
+        "npcs" : [
+
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    },
+    "trafficlight_loc" : {
+        "green" :[
+            [-421.072235107422, 10.1996097564697, 396.549499511719]
+        ],
+        "red": []
+    }
+}
