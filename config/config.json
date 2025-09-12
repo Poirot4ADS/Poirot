@@ -1,0 +1,26 @@
+{
+    "scenario": "default_ignore_pred",
+    "modules": {
+        "localization": ["/apollo/localization/pose"],
+        "perception": [ "/apollo/perception/traffic_light", "/apollo/perception/obstacles"],
+        "prediction": ["/apollo/prediction"],
+        "planning": ["/apollo/planning"],
+        "control": ["/apollo/control"]
+    },
+    "custom_gt_writer": {
+        "/apollo/localization/pose": "./bazel-bin/modules/custom_component/localization/pose/pose_from_topic",
+        "/apollo/perception/obstacles": "./bazel-bin/modules/custom_component/perception/obstacles/custom_obstacles build_proto/data/protobuf_msg/obstacles/",
+        "/apollo/perception/traffic_light": "./bazel-bin/modules/custom_component/perception/traffic_lights/custom_traffic_lights build_proto/data/protobuf_msg/traffic_lights/",
+        "/apollo/prediction": "./bazel-bin/modules/custom_component/prediction/prediction/custom_prediction build_proto/data/protobuf_msg/prediction/"
+    },
+    "component_conf": {
+        "/apollo/localization/pose": ["../modules/localization/conf/rtk_localization.pb.txt", "use_pose_gt"],
+        "/apollo/perception/obstacles": ["../modules/perception/production/conf/perception/fusion/fusion_component_conf.pb.txt", "use_obstacles_gt"],
+        "/apollo/perception/traffic_light": ["../modules/perception/production/conf/perception/camera/trafficlights_perception_component.config", "use_tl_gt"],
+        "/apollo/prediction": ["../modules/prediction/conf/prediction_conf.pb.txt", "use_pred_gt"]
+    },
+    "docker_settings": {
+        "docker_name": "apollo_dev_r7",
+        "user": "r7"
+    }
+}
