@@ -1,0 +1,29 @@
+{
+    "scenario_name" : "front static pedestrain test",
+    "label" : "inject",
+    "ego_id" : "22656c7b-104b-4e6a-9c70-9955b6582220",
+    "lgsvl_map" : "SanFrancisco_correct",
+    "apollo_map" : "SanFrancisco_correct",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": 532.648, "y": 10.2, "z": 544.58},
+            "destination" : {"x": 375.444, "y": 10.2, "z": 695.076}
+        },
+        "npcs" : [
+        ],
+        "pedestrian" : [
+            {
+                "type" : "Bob",
+                "position" : {"x": 486.997650146484, "y": 10.2, "z": 587.775634765625},
+                "destination": {"x": 375.444, "y": 10.2, "z":  695.076}
+            }
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    }
+}

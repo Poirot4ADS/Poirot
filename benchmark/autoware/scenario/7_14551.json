@@ -1,0 +1,23 @@
+{
+    "scenario_name" : "no routing",
+    "label" : "14551",
+    "ego_id" : "2e966a70-4a19-44b5-a5e7-64e00a7bc5de",
+    "lgsvl_map" : "BorregasAve",
+    "apollo_map" : "borregas_ave",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": 333.890563964844, "y": -7.33793544769287, "z": -118.965950012207},
+            "destination" : {"x": 345.5928969391938, "y": 10, "z": -74.80101815711654}
+        },
+        "npcs" : [
+
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    }
+}

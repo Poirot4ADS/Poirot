@@ -1,0 +1,38 @@
+{
+    "scenario_name" : "cannot side-pass static vehicle with opposite vehicle",
+    "label" : "14627",
+    "ego_id" : "2e966a70-4a19-44b5-a5e7-64e00a7bc5de",
+    "lgsvl_map" : "SingleLaneRoad",
+    "apollo_map" : "SingleLaneRoad",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": -110.550811767578, "y": -7.33793544769287, "z": -1.98008275032043},
+            "destination" : {"x": -11.6789464950562, "y": 10.1996097564697, "z": -1.77172720432281},
+            "speed" : 3.5
+        },
+        "npcs" : [
+            {
+                "type": "BoxTruck",
+                "position" : {"x": -60.3064651489258, "y": 10.1996097564697, "z": -1.92180931568146},
+                "destination": {"x": -34.8387413024902, "y": 10.1996097564697, "z": 1.6781564950943},
+                "action" : "stop",
+                "speed" : 5.5
+            },
+            {
+                "type": "SchoolBus",
+                "position" : {"x": 10.553117623682098, "y": 10.1996097564697, "z": 1.693387334616458},
+                "position_" : {"x": -10.553117623682098, "y": 10.1996097564697, "z": 1.693387334616458},
+                "destination": {"x": -110.5530979646445, "y": 10.1996097564697, "z": 1.6306832108594635},
+                "action" : "straight",
+                "speed" : 5.5
+            }
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    }
+}

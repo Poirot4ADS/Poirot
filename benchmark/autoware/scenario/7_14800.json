@@ -1,0 +1,29 @@
+{
+    "scenario_name" : "side-pass fail",
+    "label" : "14800",
+    "ego_id" : "2e966a70-4a19-44b5-a5e7-64e00a7bc5de",
+    "lgsvl_map" : "SanFrancisco_correct",
+    "apollo_map" : "SanFrancisco_correct",
+    "agents" : {
+        "ego" : {
+            "position" : {"x": 532.648, "y": 10.2, "z": 544.58},
+            "destination" : {"x": 375.444, "y": 10.2, "z": 695.076}
+        },
+        "npcs" : [
+            {
+                "type": "Jeep",
+                "position" : {"x": 510.213134765625, "y": 10.2, "z": 566.155944824219},
+                "destination": {"x": 375.444, "y": 10.2, "z":  695.076},
+                "action" : "straight",
+                "speed" : 0.9
+            }
+        ]
+    },
+    "environment" : {
+        "rain" : 0,
+        "fog" : 0,
+        "wetness" : 0,
+        "cloudiness" : 0,
+        "time" : 6
+    }
+}
