@@ -1,0 +1,21 @@
+fusion_name: "ObstacleMultiSensorFusion"
+fusion_method: "ProbabilisticFusion"
+fusion_main_sensor: "velodyne128"
+object_in_roi_check: true
+radius_for_roi_object_check: 120
+output_obstacles_channel_name: "/perception/vehicle/obstacles"
+output_viz_fused_content_channel_name: "/perception/inner/visualization/FusedObjects"
+
+result_fault_injection: false
+position_offset: 0.0
+dimension_offset: 0.0
+velocity_offset: 0.0
+acceleration_offset: 0.0
+theta_offset: 0.0
+type_offset: 0
+sub_type_offset: 0
+use_ideal_module_data: false
+use_ideal_component_data: false
+use_lidar_component: false
+use_radar_component: false
+use_camera_component: false

@@ -1,0 +1,30 @@
+syntax = "proto2";
+
+package apollo.perception.onboard;
+
+message FusionComponentConfig {
+  optional string fusion_name = 1 [default = "ObstacleMultiSensorFusion"];
+  optional string fusion_method = 2;
+  optional string fusion_main_sensor = 3;
+  optional bool object_in_roi_check = 4;
+  optional double radius_for_roi_object_check = 5;
+
+  optional string output_obstacles_channel_name = 6
+      [default = "/perception/vehicle/obstacles"];
+  optional string output_viz_fused_content_channel_name = 7
+      [default = "/perception/inner/visualization/FusedObjects"];
+
+  optional bool result_fault_injection = 8;
+  optional double position_offset = 9;
+  optional double dimension_offset = 10;
+  optional double velocity_offset = 11;
+  optional double acceleration_offset = 12;
+  optional double theta_offset = 13;
+  optional int32 type_offset = 14;
+  optional int32 sub_type_offset = 15;
+  optional bool use_ideal_module_data = 16;
+  optional bool use_ideal_component_data = 17;
+  optional bool use_lidar_component = 18;
+  optional bool use_radar_component = 19;
+  optional bool use_camera_component = 20;
+}

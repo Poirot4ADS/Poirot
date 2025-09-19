@@ -1,0 +1,2 @@
+use_ideal_module_data=true
+localization_topic=/apollo/localization/pose

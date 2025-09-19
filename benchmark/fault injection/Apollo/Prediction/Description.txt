@@ -1,0 +1,1 @@
+The prediction module primarily uses ideal perception information for obstacle matching and traverses the path points to find the closest trigger location, using the subsequent NPC motion trajectory as the ideal prediction result.

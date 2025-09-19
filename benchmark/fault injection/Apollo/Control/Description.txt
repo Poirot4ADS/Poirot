@@ -1,0 +1,1 @@
+The control module only perturbs the data, and the fault location methods are different. The corresponding conf also does not include steps for ideal modules and components.
